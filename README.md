@@ -34,3 +34,5 @@ $$H = \frac{1}{m} X^T S X + \frac{\lambda}{m} I_{reg}$$
 **The Update Rule:**
 The weights are updated by inverting the Hessian, allowing the model to take a direct step towards the minimum:
 $$\theta_{new} := \theta_{old} - H^{-1} \nabla J(\theta)$$
+
+<img width="1363" height="658" alt="image" src="https://github.com/user-attachments/assets/f2555681-c88b-4815-8be9-d182a2f08056" />
