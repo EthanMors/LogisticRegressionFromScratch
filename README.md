@@ -36,3 +36,4 @@ The weights are updated by inverting the Hessian, allowing the model to take a d
 $$\theta_{new} := \theta_{old} - H^{-1} \nabla J(\theta)$$
 
 <img width="1363" height="658" alt="image" src="https://github.com/user-attachments/assets/f2555681-c88b-4815-8be9-d182a2f08056" />
+In this graph we can see that my alogrithim is able to accuratley spike up before both the 2008 financial crisis and the pandemic. This shows our code is working and due to it's gradual growth and decreases shows proof of not being overfit.
